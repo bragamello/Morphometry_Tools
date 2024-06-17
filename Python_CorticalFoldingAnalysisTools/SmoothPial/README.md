@@ -3,6 +3,7 @@ This function produces a smooth outer pial surface. It is a pythonic version of 
 For multiple subjects it assumes a flattened file organization (all subjects and sessions
 at the same folders as subj1_ses1, subj1_ses2, subj2_ses1 ...)
 
+Usage: python3 smooth_pial_v0.py -filepath path2data -save_mesh True -nsmooth 50 -radius 3 -nint 2
 
 based on: A Surface-Based Approach to Quantify Local Cortical Gyrification, Marie Schaer et. al. in IEEE Transactions on Medical Imaging, vol. 27, no. 2, pp. 161-170, Feb. 2008, doi: 10.1109/TMI.2007.903576
 https://ieeexplore.ieee.org/document/4359040
