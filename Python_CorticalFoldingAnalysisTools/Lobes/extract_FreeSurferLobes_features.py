@@ -225,8 +225,6 @@ def extract_FSHemi_features(input_list):
                 varray_voxel = np.array(nib.affines.apply_affine(ras_tkr2vox, whitev)[label_selection],dtype=np.int32) 
                 sorted_v =  varray_voxel[np.lexsort(varray_voxel.T),:]
                 row_mask = np.append([True],np.any(np.diff(sorted_v,axis=0),1))
-
-                voxels = len(sorted_v[row_mask])
                 
                 # output data                
                 data_dict['subj'] = file_ID
@@ -239,8 +237,7 @@ def extract_FSHemi_features(input_list):
                 data_dict['thickness'] = avg_thickness
                 data_dict['mean_contrast'] = mean_contrast            
                 data_dict['mean_contrast_normalized'] = mean_contrast_normalized                            
-                data_dict['Ig_correction'] = correction_Ig
-                data_dict['voxels'] = voxels                                            
+                data_dict['Ig_correction'] = correction_Ig  
                 result.append(data_dict)
                         
         except FileNotFoundError:
