@@ -1,0 +1,37 @@
+label_name,annotation,lobe
+unknown,-1,corpus callossum
+bankssts,1,Temporal
+caudalanteriorcingulate,2,Frontal
+caudalmiddlefrontal,3,Frontal
+corpuscallosum,4,corpus callossum
+cuneus,5,Occipital
+entorhinal,6,Temporal
+fusiform,7,Temporal
+inferiorparietal,8,Parietal
+inferiortemporal,9,Temporal
+isthmuscingulate,10,Parietal
+lateraloccipital,11,Occipital
+lateralorbitofrontal,12,Frontal
+lingual,13,Occipital
+medialorbitofrontal,14,Frontal
+middletemporal,15,Temporal
+parahippocampal,16,Temporal
+paracentral,17,Frontal
+parsopercularis,18,Frontal
+parsorbitalis,19,Frontal
+parstriangularis,20,Frontal
+pericalcarine,21,Occipital
+postcentral,22,Parietal
+posteriorcingulate,23,Parietal
+precentral,24,Frontal
+precuneus,25,Parietal
+rostralanteriorcingulate,26,Frontal
+rostralmiddlefrontal,27,Frontal
+superiorfrontal,28,Frontal
+superiorparietal,29,Parietal
+superiortemporal,30,Temporal
+supramarginal,31,Parietal
+frontalpole,32,Frontal
+temporalpole,33,Temporal
+transversetemporal,34,Temporal
+insula,35,None
